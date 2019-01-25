@@ -1,0 +1,130 @@
+#bloc1 /*concerne le header*/
+{
+    background: rgb(235,241,246);
+    background: -moz-linear-gradient(-45deg, rgba(235,241,246,1) 0%, rgba(137,195,235,1) 44%, rgba(171,211,238,1) 88%, rgba(213,235,251,1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(235,241,246,1) 0%,rgba(137,195,235,1) 44%,rgba(171,211,238,1) 88%,rgba(213,235,251,1) 100%);   
+    background: linear-gradient(135deg, rgba(235,241,246,1) 0%,rgba(137,195,235,1) 44%,rgba(171,211,238,1) 88%,rgba(213,235,251,1) 100%);
+    text-align: center;
+}
+img
+{
+    margin-top: 2%;
+}
+h1, h4, h5, h6
+{
+    font-family:  'Charm', cursive, Arial, 'Trebuchet MS', Helvetica, sans-serif;
+    
+}
+h3
+{
+    font-weight: normal;
+    font-size: 140%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+h5
+{
+    padding-top: 5%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-size: 1.5em;
+}
+h4, h6
+{
+    margin-top: 4%;
+    margin-bottom: 3%;
+    font-size: 1.5em;
+}
+nav li:hover
+{
+    color:aliceblue;
+    transition: 1.2s ease;
+    background-color: silver;
+}
+p, li
+{
+    text-align: justify;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+a img
+{
+    margin-top: 10%;
+    transition: 1s ease;
+    opacity: 0.5;
+}
+a img:hover
+{
+    opacity: 1;
+}
+span
+{
+    text-decoration: line-through;
+}
+#bloc
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+#bloc2, #bloc3, #bloc4, #bloc5, #bloc6, #bloc7, #bloc8, #bloc9, #demo
+{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background: rgb(238,238,238);
+    background: -moz-linear-gradient(left, rgba(238,238,238,1) 0%, rgba(238,238,238,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%);
+    background: linear-gradient(to right, rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%);
+}
+.rounded img
+{
+    transition: .3s ease-in-out; /*temps de transformation*/
+}
+.rounded:hover img
+{
+    border-radius: 50%;
+}
+#comp p, #comp1 p, #comp2 p, #comp3 p
+{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 120%;
+}
+#comp3
+{
+    margin-bottom: 7.5%;
+}
+.morph img
+{
+    filter: grayscale(0) blur(0px);
+    transition: all 1s ease;
+}
+.morph:hover img
+{
+    border-radius: 50%;
+    transform: rotate(360deg);
+}
+#marg, #bloc5
+{
+    margin: 0;
+}
+.carousel p
+{
+    text-align: center;
+    color: white;
+}
+footer
+{
+    font-size: 70%;
+    color:grey;
+}
+img
+{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
